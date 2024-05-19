@@ -185,7 +185,7 @@ if __name__ == "__main__":
     parser.add_argument("--batch_size", type=int, default=8)
     parser.add_argument("--gradient_accumulation_steps", type=int, default=1)
     parser.add_argument("--optim", type=str, default="adamw_torch")
-    parser.add_argument("--data_path", type=str, default="./data/ultrachat_small.jsonl")
+    parser.add_argument("--data_path", type=str, default="./data/squad_train.jsonl")
     parser.add_argument("--num_epochs", type=int, default=10)
     args = parser.parse_args()
 
